@@ -26,14 +26,6 @@ Turma: 1TDSPB
 GitHub: github.com/erickramossantoser-create
 LinkedIn: a preencher
 
-Lucas Cunha Maia Vila Nova
-
-RM: 566742
-Turma: 1TDSPB
-GitHub: github.com/lucascunhamaia
-LinkedIn: a preencher
-
-
 Contato
 Em caso de dúvidas sobre o projeto, entre em contato através do formulário disponível na página /contato ou diretamente pelo LinkedIn dos integrantes.
 
