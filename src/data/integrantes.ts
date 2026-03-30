@@ -9,7 +9,7 @@ export interface Integrante {
 }
 
 export const integrantes: Integrante[] = [
-  { id: '1', nome: 'Erick Ramos', rm: '567837', turma: '1TDSPB', github: 'https://github.com/erickramossantoser-create', linkedin: '#', emoji: '👤' },
-  { id: '2', nome: 'Guilherme de Sousa Leopoldino', rm: '567242', turma: '1TDSPB', github: 'https://github.com/GuiDSLeopoldino', linkedin: '#', emoji: '👤' },
+  { id: '1', nome: 'Erick Ramos', rm: '567837', turma: '1TDSPB', github: 'https://github.com/erickramossantoser', linkedin: 'https://www.linkedin.com/in/erickrsantos/', emoji: '👤' },
+  { id: '2', nome: 'Guilherme Marques', rm: '568054', turma: '1TDSPA', github: 'github.com/GuiDSLeopoldino', linkedin: 'www.linkedin.com/in/guilherme-marques-15670b307', emoji: '👤' },
   { id: '3', nome: 'Lucas Cunha Maia Vila Nova', rm: '566742', turma: '1TDSPB', github: 'https://github.com/lucascunhamaia', linkedin: '#', emoji: '👤' },
 ]
