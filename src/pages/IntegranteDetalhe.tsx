@@ -26,8 +26,12 @@ const IntegranteDetalhe = () => {
       <section className="bg-slate-900 text-white py-20">
         <div className="max-w-6xl mx-auto px-5">
           <div className="bg-slate-800 rounded-2xl p-10 text-center max-w-md mx-auto shadow-2xl">
-            <div className="w-32 h-32 rounded-full bg-slate-700 border-4 border-[#2c7fb8] flex items-center justify-center text-6xl mx-auto mb-6">
-              {integrante.emoji}
+            <div className="w-28 h-28 rounded-full bg-slate-700 border-4 border-[#2c7fb8] flex items-center justify-center text-5xl mx-auto mb-5 overflow-hidden">
+              {integrante.foto ? (
+                <img src={integrante.foto} alt={integrante.nome} className="w-full h-full object-cover rounded-full" />
+              ) : (
+                <span>{integrante.emoji}</span>
+              )}
             </div>
 
             <h2 className="text-2xl font-bold mb-2">{integrante.nome}</h2>
