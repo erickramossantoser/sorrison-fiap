@@ -1,19 +1,2 @@
 @import "tailwindcss";
 
-/* Apenas o essencial que não dá pra fazer com Tailwind puro */
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.fade-in.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-.faq-arrow {
-  transition: transform 0.3s;
-  display: inline-block;
-}
-.faq-arrow.open {
-  transform: rotate(90deg);
-}
