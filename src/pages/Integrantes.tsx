@@ -34,7 +34,13 @@ const Integrantes = () => {
               >
                 <div className="bg-slate-800 rounded-2xl p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:outline hover:outline-2 hover:outline-sky-400 h-full">
                   <div className="w-28 h-28 rounded-full bg-slate-700 border-4 border-[#2c7fb8] flex items-center justify-center text-5xl mx-auto mb-5">
-                    {integrante.emoji}
+                    {integrante.emoji ? (
+                    <img src={integrante.foto} alt={integrante.nome} 
+                   className="w-full h-full object-cover rounded-full"
+                   />
+                    ) : (
+                      <span>{integrante.emoji}</span>
+                    )}
                   </div>
                   <p className="text-lg font-semibold text-white mb-1">{integrante.nome}</p>
                   <p className="text-slate-400 text-sm mb-1">RM: {integrante.rm}</p>
