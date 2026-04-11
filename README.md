@@ -108,8 +108,8 @@ npm run preview
 
 ## 🔗 Links do Projeto
 
-- 📁 **Repositório GitHub:** [https://github.com/GuilhermeMarques200/sorrison-fiap](https://github.com/GuilhermeMarques200/sorrison-fiap)
-- 🎥 **Vídeo de Apresentação (YouTube):** _em breve_
+- 📁 **Repositório GitHub:** [https://github.com/erickramossantoser/sorrison-fiap]
+- 🎥 **Vídeo de Apresentação (YouTube):** [https://youtu.be/xYVjQyc4af0]
 
 ---
 
@@ -121,23 +121,18 @@ npm run preview
 - **GitHub:** [github.com/GuilhermeMarques200](https://github.com/GuilhermeMarques200)
 - **LinkedIn:** [linkedin.com/in/guilherme-marques-15670b307](https://www.linkedin.com/in/guilherme-marques-15670b307)
 
-### Guilherme de Sousa Leopoldino
-- **RM:** 567242
-- **Turma:** 1TDSPB
-- **GitHub:** [github.com/GuiDSLeopoldino](https://github.com/GuiDSLeopoldino)
-- **LinkedIn:** _a preencher_
 
 ### Erick Ramos
 - **RM:** 567837
 - **Turma:** 1TDSPB
-- **GitHub:** [github.com/erickramossantoser-create](https://github.com/erickramossantoser-create)
-- **LinkedIn:** _a preencher_
+- **GitHub:** [https://github.com/erickramossantoser](https://github.com/erickramossantoser)
+- **LinkedIn:** [https://www.linkedin.com/in/erickrsantos/]
 
-### Lucas Cunha Maia Vila Nova
+### Samuel Galeati
 - **RM:** 566742
 - **Turma:** 1TDSPB
-- **GitHub:** [github.com/lucascunhamaia](https://github.com/lucascunhamaia)
-- **LinkedIn:** _a preencher_
+- **GitHub:** [https://github.com/saboy71](https://github.com/saboy71)
+- **LinkedIn:** [https://br.linkedin.com/in/samuel-galeati-38930b355]
 
 ---
 
@@ -150,3 +145,5 @@ Em caso de dúvidas sobre o projeto, entre em contato através do formulário di
 <p align="center">
   Desenvolvido com 💙 pela equipe SorrisON — FIAP 2025
 </p>
+
+
