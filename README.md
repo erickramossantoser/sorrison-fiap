@@ -1,149 +1,89 @@
-# 🦷 SorrisON — Conectando Sorrisos, Transformando Vidas
+<div align="center">
 
-> Plataforma inteligente de gestão para triagem odontológica e voluntários, otimizando o atendimento a comunidades carentes.
+# 🦷 SorrisON
 
----
+### Conectando sorrisos, organizando atendimentos
 
-## 📋 Descrição do Projeto
+Plataforma acadêmica para apoiar a triagem odontológica e a gestão de voluntários.
 
-O **SorrisON** é uma aplicação web desenvolvida para facilitar a gestão de atendimentos odontológicos voluntários. A plataforma conecta ONGs, pacientes e dentistas voluntários, organizando filas de espera com triagem inteligente baseada em urgência, condições socioeconômicas e idade.
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-O projeto foi desenvolvido como parte da **Sprint 03** da disciplina de **Front-End Design Engineering** da FIAP, com foco na migração para uma arquitetura moderna utilizando React + Vite + TypeScript.
+</div>
 
----
+## Sobre o projeto
 
-## 🚀 Tecnologias Utilizadas
+O SorrisON é uma solução desenvolvida na FIAP para facilitar a organização de atendimentos odontológicos voluntários. A proposta conecta pacientes, ONGs e dentistas, ajudando a estruturar cadastros, informações de triagem e a apresentação da rede de voluntários.
 
-| Tecnologia | Versão | Finalidade |
-|---|---|---|
-| [React](https://react.dev/) | 19.x | Interface e componentização |
-| [Vite](https://vitejs.dev/) | 8.x | Build e performance |
-| [TypeScript](https://www.typescriptlang.org/) | 5.9.x | Tipagem estática |
-| [TailwindCSS](https://tailwindcss.com/) | 4.x | Estilização da interface |
-| [React Router DOM](https://reactrouter.com/) | 7.x | Navegação SPA entre páginas |
-| [React Hook Form](https://react-hook-form.com/) | 7.x | Validação de formulários |
+Este repositório reúne a etapa de front-end construída com React, Vite e TypeScript, com foco em componentização, navegação e validação de formulários.
 
----
+## Funcionalidades
 
-## 📁 Estrutura de Pastas
+- Página inicial com apresentação do projeto
+- Explicação do problema e da solução proposta
+- FAQ com interação em formato de acordeão
+- Formulário de contato com validação
+- Área de integrantes com rotas dinâmicas
+- Layout responsivo e componentes reutilizáveis
 
-```
-sorrison-fiap/
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-├── src/
-│   ├── assets/          # Imagens e recursos estáticos
-│   ├── components/      # Componentes reutilizáveis
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   └── Layout.tsx
-│   ├── data/            # Dados estáticos da aplicação
-│   │   └── integrantes.ts
-│   ├── pages/           # Páginas da aplicação (rotas)
-│   │   ├── Home.tsx
-│   │   ├── Sobre.tsx
-│   │   ├── Solucao.tsx
-│   │   ├── FAQ.tsx
-│   │   ├── Contato.tsx
-│   │   ├── Integrantes.tsx
-│   │   └── IntegranteDetalhe.tsx
-│   ├── App.tsx          # Configuração de rotas
-│   ├── main.tsx         # Entry point da aplicação
-│   └── index.css        # Estilos globais
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
+## Tecnologias
 
----
+| Tecnologia | Uso no projeto |
+|---|---|
+| React | Componentização da interface |
+| TypeScript | Tipagem e organização do código |
+| Vite | Ambiente de desenvolvimento e build |
+| Tailwind CSS | Estilização da aplicação |
+| React Router | Rotas estáticas e dinâmicas |
+| React Hook Form | Validação dos formulários |
 
-## 📄 Páginas da Aplicação
+## Páginas
 
-- **Home** `/` — Apresentação do projeto e funcionalidades principais
-- **Sobre** `/sobre` — Missão, história e roadmap do SorrisON
-- **Solução** `/solucao` — Detalhamento técnico da proposta
-- **FAQ** `/faq` — Perguntas frequentes com accordion interativo
-- **Contato** `/contato` — Formulário com validação via React Hook Form
-- **Integrantes** `/integrantes` — Equipe do projeto com cards clicáveis
-- **Perfil do Integrante** `/integrantes/:id` — Rota dinâmica com dados individuais
+| Rota | Descrição |
+|---|---|
+| / | Apresentação do SorrisON |
+| /sobre | Missão, contexto e evolução do projeto |
+| /solucao | Detalhamento da solução |
+| /faq | Perguntas frequentes |
+| /contato | Formulário com validação |
+| /integrantes | Apresentação da equipe |
+| /integrantes/:id | Perfil individual de cada integrante |
 
----
-
-## ⚙️ Como Executar Localmente
+## Como executar
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) v18 ou superior
-- npm ou yarn
+- Node.js 18 ou superior
+- npm
 
-### Passo a passo
+### Instalação
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/GuilhermeMarques200/sorrison-fiap.git
-
-# 2. Acesse a pasta do projeto
+~~~bash
+git clone https://github.com/erickramossantoser/sorrison-fiap.git
 cd sorrison-fiap
-
-# 3. Instale as dependências
 npm install
-
-# 4. Inicie o servidor de desenvolvimento
 npm run dev
+~~~
 
-# 5. Acesse no navegador
-# http://localhost:5173
-```
+A aplicação ficará disponível no endereço exibido pelo Vite no terminal.
 
-### Build para produção
+### Build de produção
 
-```bash
+~~~bash
 npm run build
 npm run preview
-```
+~~~
 
----
+## Demonstração
 
-## 🔗 Links do Projeto
+🎥 [Vídeo de apresentação do projeto](https://youtu.be/xYVjQyc4af0)
 
-- 📁 **Repositório GitHub:** [https://github.com/erickramossantoser/sorrison-fiap]
-- 🎥 **Vídeo de Apresentação (YouTube):** [https://youtu.be/xYVjQyc4af0]
+## Equipe
 
----
+- Erick Ramos — RM 567837
+- Guilherme Marques — RM 568054
+- Samuel Galeati — RM 566742
 
-## 👥 Integrantes do Grupo
-
-### Guilherme Marques
-- **RM:** 568054
-- **Turma:** 1TDSPB
-- **GitHub:** [github.com/GuilhermeMarques200](https://github.com/GuilhermeMarques200)
-- **LinkedIn:** [linkedin.com/in/guilherme-marques-15670b307](https://www.linkedin.com/in/guilherme-marques-15670b307)
-
-
-### Erick Ramos
-- **RM:** 567837
-- **Turma:** 1TDSPB
-- **GitHub:** [https://github.com/erickramossantoser](https://github.com/erickramossantoser)
-- **LinkedIn:** [https://www.linkedin.com/in/erickrsantos/]
-
-### Samuel Galeati
-- **RM:** 566742
-- **Turma:** 1TDSPB
-- **GitHub:** [https://github.com/saboy71](https://github.com/saboy71)
-- **LinkedIn:** [https://br.linkedin.com/in/samuel-galeati-38930b355]
-
----
-
-## 📞 Contato
-
-Em caso de dúvidas sobre o projeto, entre em contato através do formulário disponível na página [/contato](http://localhost:5173/contato) ou diretamente pelo LinkedIn dos integrantes.
-
----
-
-<p align="center">
-  Desenvolvido com 💙 pela equipe SorrisON — FIAP 2025
-</p>
-
-
+Projeto acadêmico desenvolvido para a FIAP.
